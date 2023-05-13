@@ -467,7 +467,7 @@ h4{
 }
 
 .menu_2 > a:hover{
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1.8px solid red; 
     transition: 0.3s;
 }
 /*FIm do footer*/
