@@ -11,13 +11,11 @@
 
 body{
     font-size: 100%;
-    
     /*background: linear-gradient(68.15deg, #2F2325 16.62%, #230f5a 85.61%);*/
     background-color: rgba(0, 0, 0, 0.803);
 }
 
 /* Inicio do cabecalho */
-
 
 .section_cabecalho{
     display: flex;
@@ -62,15 +60,12 @@ body{
     font-size: 22px;
     margin: 0 10px;
     height: 35px;
-
 }
-
 
 .section_link:hover{
     transition: 0.3s;
     border-bottom: 1.8px solid red;  
 }
-
 
 .apresentacao{
     /*display: flex;
@@ -106,7 +101,6 @@ body{
         transform: rotate(360deg);
     }
 }
-
     
 /* Fim do cabecalho */
 
@@ -125,7 +119,6 @@ body{
     align-items: center;
     justify-content: space-around;
 }
-
 
 .section_1{
     display: flex;
@@ -172,14 +165,12 @@ body{
 /* Inicio seção habilidades*/
 
 
-
 .section_habilidades{
     border-top: 0.3px solid #FFF2E7;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .section_container{
     display: flex;
@@ -188,7 +179,6 @@ body{
     width: 100%;
     flex-wrap: wrap;
 }
-
 
 .section_conteudo > p{
     font-size: 20px;
@@ -208,11 +198,9 @@ body{
 
 .section_conteudo span{
     display: inline-block;
-    
     color: #FFF2E7;
     width: (100% - 70px);
 }
-
 
 /*FIm seção habilidades*/
 
@@ -225,7 +213,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
 .titulo_principal_2{
@@ -257,7 +244,6 @@ h4{
 .contato{
     font-size: 27px;
     color: black;
-
 }
 
 .container_desafios:hover{
@@ -291,9 +277,7 @@ h4{
     border-radius: 15px;
     height: auto;
     box-shadow: 1px 1px 15px #CCC;
-
 }
-
 
 .projeto_1{
     width: 70%;
@@ -315,13 +299,10 @@ h4{
     border-radius: 20px;
 }
 
-
 .imagem_projeto:hover{
     cursor: pointer;
     width: 55%;
 }
-
-
 
 .descricao{
     width: 50%;
@@ -408,18 +389,15 @@ h4{
     margin-bottom: 4rem;
 }
 
-
 .contatos_add > h2{
     width: auto;
     height: fit-content;
 }
 
-
 #contatos_diretos:hover{
     transition: all 0.3s;
     border-bottom: 3px solid #000000ff;
     padding-bottom: 3px;
-    
 }
 
 #contatos_diretos{
@@ -458,7 +436,6 @@ h4{
     margin-bottom: 25px;
 }
 
-
 .menu_2 > a{
     margin: 0 10px;
     display: inline-block;
@@ -470,6 +447,7 @@ h4{
     border-bottom: 1.8px solid red; 
     transition: 0.3s;
 }
+
 /*FIm do footer*/
 
 
@@ -587,5 +565,4 @@ h4{
         padding: 0;
     }
 }
-
 /*Fim resposivo*/
